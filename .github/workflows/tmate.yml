@@ -32,7 +32,7 @@ jobs:
     - name: 🖥️ Cài đặt và chạy TightVNC, noVNC, Cloudflared
       shell: pwsh
       run: |
-        hiworld
+      - run: echo hi
         
         try {
           Write-Host "📥 Installing TightVNC..."
